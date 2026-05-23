@@ -116,6 +116,7 @@ PlayerSettings:
   xboxEnableGuest: 0
   xboxEnablePIXSampling: 0
   metalFramebufferOnly: 0
+  metalUseMetalDisplayLink: 0
   xboxOneResolution: 0
   xboxOneSResolution: 0
   xboxOneXResolution: 3
@@ -833,7 +834,7 @@ PlayerSettings:
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
     Android: SENTIS_ANALYTICS_ENABLED;CROSS_PLATFORM_INPUT;MOBILE_INPUT;CF_FORCE_MOBILE_MODE;APP_UI_EDITOR_ONLY
-    Standalone: CROSS_PLATFORM_INPUT
+    Standalone: CROSS_PLATFORM_INPUT;SENTIS_ANALYTICS_ENABLED;APP_UI_EDITOR_ONLY
     Windows Store Apps: MOBILE_INPUT;CF_FORCE_MOBILE_MODE
     iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT;CF_FORCE_MOBILE_MODE
   additionalCompilerArguments: {}
